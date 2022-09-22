@@ -1,14 +1,19 @@
 #include"header.h"
 /**
- * get_val - function to get a value
+ * _strcat - function to get a value
  *
- * @n: an integer
+ * @src: a character
+ * @dest: first character
  *
  * Return: always 0
  */
 
-int get_val(n)
+char *_strcat(char *dest, char *src)
 {
-	n = 1;
-	return (0);
+	dest = "This is first character";
+	src = "This is last character";
+
+	printf("First character:%s\n", dest);
+
+	printf("Last character:%s\n", src);
 }
